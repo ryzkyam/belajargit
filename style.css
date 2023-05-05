@@ -1,0 +1,140 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Sedgwick Ave Display", cursive;
+  cursor: pointer;
+}
+
+:root {
+  --bg-primary: rgb(219, 219, 219);
+  --bg-secondary: #1a6475;
+  --text-secondary: #fffefe;
+  --text-primary: #d61919;
+  --btn-primary: var(--bg-secondary);
+}
+
+.container {
+  width: 100%;
+  height: 150vh;
+  background-color: var(--bg-primary);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  border: 2px solid rgb(2, 43, 39);
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  padding: 50px;
+  margin: 9px;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.nav_navbar {
+  background-color: rgb(0, 0, 0);
+}
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 2px;
+  font-size: 20px;
+  background-color: hsla(0, 0%, 0%, 0.418);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border: black solid 2px;
+  position: fixed;
+}
+
+header h1 {
+  margin-top: 15px;
+}
+
+header span {
+  background-color: var(--bg-secondary);
+  color: rgb(0, 0, 0);
+  border: #000000 1px solid;
+  box-shadow: rgb(245, 245, 245) 5px 5px 5px;
+}
+
+header {
+  background-color: #b1b1b1;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+  padding: 4px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  margin-top: 12px;
+  width: 70px;
+  height: 50px;
+  padding: 4px;
+  margin-right: 20px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+@media screen and (min-width:1500px) {
+  .card-image {
+  
+  }
+}
+
+.wrapper-img {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-size: 20px;
+  background-color: var(--bg-primary);
+}
+
+.card-image {
+  padding: 10px;
+  justify-content: center;
+  margin-left: 3px;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  background-color: #fefcfc;
+  border-radius: 5px;
+  box-shadow: rgb(9, 8, 8) 2px 2px 2px;
+}
+
+
+.container-img {
+  background-color: #ede2e2;
+  width: 50%;
+  height: 200%;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,42 @@
+*,
+body,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+.layout{
+    display: flex;
+}
+
+.layout-left{
+    width: 80%;
+    padding: 100px;
+}
+
+.brand{
+    margin-bottom: 150px;
+    font-size: 20px;
+    font-weight:700;
+    font-style: italic;
+}
+
+.badge{
+    width: 150;
+    height: auto;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    background-color: rgb(138, 170, 244);
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form btn{
+    display: inline-block;
+}
+
